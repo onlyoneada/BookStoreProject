@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+#headermenu{
+	display: table;
+}
+
+#headermenu div{
+	display:table-cell; 
+	padding-right:20px
+}
+
+a:link{
+	color:cornflowerBlue;
+	text-decoration:none;
+}
+
+a:visited{
+	color: indigo;
+}
+
+a:hover{
+	color:blue;
+	text-decoration: underline;
+}
+
+a:active{
+	color:red;
+}
+
+#headermenu a:link{
+	font-size: larger;
+}
+
+.pageheading{
+	color:darkblue;
+}
+
+table{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+
+th,td{
+	padding:8px;
+}
+
+th{
+	background: darkblue;
+	color:cornsilk;
+	font-size:larger;
+}
+
+table.form{
+	border:0;
+	padding:2px;
+	width:30%;
+	margin: 0 auto;
+}
+
+table.profile{
+	border:0;
+}
+
+button{
+	padding:6px;
+	border-radius:5px;
+}
+
+button[type=submit]{
+	font-weight:bold;
+}
+
+button:hover{
+	background-color:white;
+	color:green;
+}
+
+input{
+	border:1px solid;
+	border-radius:4px;
+	border-color:darkblue;
+	height:20px;
+}
+
+.message{
+	color: green;
+	font-style: italic;
+	font-size:25px;
+}
+
+.errormessage,.error {
+	color:red;
+	font-style: italic;
+	font-size:25px;
+}
+
+.successfulMessage{
+	color: green;
+	font-style: italic;
+	font-size:25px;
+}
+
+div.center{
+	text-align: center;
+}
+
+div.book{
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+	border:0;
+}
+
+table.book{
+	width:80%;
+	border:0;
+	margin: 0 auto;
+}
+
+div.book-group{
+	 width:80%; 
+	 margin: 0 auto;
+}
+
+div.next-row{
+	clear:both;
+}
+
+img.book-small{
+	width: 128px;
+	height: 164px;
+}
+
+img.book-large{
+	width: 240px;
+	height: 300px;
+}
+
+#book-title{
+	font-size: x-large;
+	font-weight: bold;	
+}
+
+#author{
+	font-size: large;
+	font-style: italic;
+}
+
+#description{
+	text-align: justify;
+	vertical-align: top;
+}
+
+#search-image{
+	display: inline-block; 
+	margin: 20px;
+	width: 10%
+}
+
+#search-description{
+	text-align:left;
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+	width: 50%;
+}
+
+#search-price{
+	display: inline-block; 
+	margin: 20px; 
+	vertical-align: top;
+}
